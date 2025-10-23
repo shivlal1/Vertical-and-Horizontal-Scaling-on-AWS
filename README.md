@@ -1,6 +1,6 @@
 # Horizontal Scaling Implementation Report
 
-## 1. How the System Solved the Part II Bottleneck
+## 1. How the System Solved the Vertical Scaling Bottleneck
 
 The bounded search implementation creates a CPU-bound bottleneck - each request examines exactly 100 products, creating consistent computational load. With a single instance, this bottleneck limits throughput. 
 
